@@ -83,9 +83,9 @@
 
             float wantedHeight = Math.Min(_contentHeight, DropdownStyle.MaxWindowHeight);
 
-            if (_preventExpandingHeight && wantedHeight != 0f &&
-                wantedHeight.DoesNotEqualApproximately(position.height))
-                heightToSet = wantedHeight;
+            // if (_preventExpandingHeight && wantedHeight != 0f &&
+            //     wantedHeight.DoesNotEqualApproximately(position.height))
+            //     heightToSet = wantedHeight;
 
             if (widthToSet == -1f && heightToSet == -1f)
                 return;
